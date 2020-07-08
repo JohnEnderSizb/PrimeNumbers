@@ -13,10 +13,6 @@ public class Main{
             prog.generatePrimes(num);
         }});  
         t1.start();
-
-        for(int i = 1; i <= 20; i++){
-            System.out.println("Main Thread ");
-        }
     }
 
     public int getNumber(){
